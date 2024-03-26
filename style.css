@@ -46,13 +46,13 @@ iframe.tela {
 .redessociais {
   display: flex;
   flex-direction: column;
-  text-align: right;
 }
 
 section.redessociais img:hover {
   border: 2px solid rgba(255, 255, 255, 0.603);
-  transform: translate(-4px, -4px);
-  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.651);
+  transform: translate(4px, 4px);
+  box-shadow: -4px -4px 10px rgba(0, 0, 0, 0.548);
+  transition: transform 0.4s;
 }
 
 section.redessociais img:active {
